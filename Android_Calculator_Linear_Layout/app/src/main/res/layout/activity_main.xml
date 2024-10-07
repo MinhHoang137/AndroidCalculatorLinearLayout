@@ -296,5 +296,15 @@
                     android:textSize="20sp" />
             </LinearLayout>
         </LinearLayout>
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/StudentID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20225719"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/general" />
 </androidx.constraintlayout.widget.ConstraintLayout>
